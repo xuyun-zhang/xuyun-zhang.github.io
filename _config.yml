@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Xuyun (Sean) Zhang"
+title                    : "Xuyun Zhang' Homepage"
 title_separator          : "-"
 name                     : &name "Dr. Xuyun (Sean) Zhang"
 description              : &description "Senior Lecturer @ Macquarie University"
@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr Xuyun (Sean) Zhang"
-  avatar           : "profile.png"
+  name             : "Dr Xuyun Zhang"
+  avatar           : "xuyun-standard-photo.jpg"
   bio              : "Senior lecturer in Department of Computing, Macquarie University"
   location         : "Sydney, Australia"
   employer         : Macquarie University
