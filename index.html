@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<!--license 
+    Plain-Academic by Vasilios Mavroudis
+    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+
+<head>
+  <title>Xuyun Zhang</title>
+  <link rel="icon" type="image/x-icon" href="images/logo2.ico">
+  <meta charset="utf-8">
+  <meta name="author" content="Xuyun Zhang">
+  <meta name="description" content="Personal website of Xuyun Zhang">
+  <meta name="keywords" content="MLSys, outlier detection, automl, anomaly detection, Xuyun Zhang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script>
+    // Function to disable right-click
+    function disableRightClick(event) {
+        event.preventDefault(); // Prevent the default right-click behavior
+    }
+
+    // Add event listener to the document for right-click event
+    document.addEventListener('contextmenu', disableRightClick);
+</script>
+
+</head>
+
+<body>
+
+  <style>
+    .heading {
+      word-wrap: break-word;
+      font-family: 'Oswald', sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .info-text {
+      margin-bottom: 10px;
+    }
+
+    .university-color {
+      color: #a6192e;
+    }
+
+    .link-list a {
+      margin-right: 5px;
+    }
+
+    body {
+      background-color: #ffffff;
+    }
+
+    .j_navbar {
+      /* background-image:linear-gradient(90deg,#76232f,#a6192e 60%,#d6001c 80%,#d6001c) */
+      background-color: #581c25;
+    }
+
+    .justified-text {
+      text-align: justify;
+    }
+
+    /* Reset some default styles for the footer */
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Footer styles */
+    .footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Social icons */
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .social-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    /* for the skills */
+
+    .containerskills {
+      width: 100%;
+      background-color: #e6e4dc;
+
+    }
+
+    .skills {
+      text-align: left;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: white;
+
+    }
+
+    .clock {
+      color: #a6192e;
+    }
+
+    /* .html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 90%; background-color: #808080;} */
+
+    .research1 {
+      width: 90%;
+      background-color: #a6192e;
+    }
+
+    .research2 {
+      width: 80%;
+      background-color: #a6192e;
+    }
+
+    .research3 {
+      width: 80%;
+      background-color: #a6192e;
+    }
+
+    .research4 {
+      width: 90%;
+      background-color: #a6192e;
+    }
+
+    .research5 {
+      width: 70%;
+      background-color: #a6192e;
+    }
+
+    .coding1 {
+      width: 90%;
+      background-color: #a6192e4f;
+    }
+
+    .coding2 {
+      width: 70%;
+      background-color: #a6192e4f;
+    }
+
+    .coding3 {
+      width: 60%;
+      background-color: #a6192e4f;
+    }
+
+    .skill1 {
+      width: 90%;
+      background-color: #27050a4f;
+    }
+
+    .skill2 {
+      width: 80%;
+      background-color: #27050a4f;
+    }
+
+    .skill3 {
+      width: 90%;
+      background-color: #27050a4f;
+    }
+  </style>
+
+  <!-- <li><img width="50" height="50" class="img-responsive" src="logo.png" alt="Avatar of Xuyun Zhang"  text-align="right"></li> -->
+
+
+  <nav class="navbar navbar-inverse navbar-static-top j_navbar" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">X. Xuyun</a>
+      </div>
+
+      <div class="collapse navbar-collapse " id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#teaching">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#grants">Grants & Consultancies</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#services">Services & Memberships</a></li>
+          <li><a href="#project">Projects Supervision</a></li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-xs-12">
+        <div class="heading">Xuyun Zhang</div>
+        <div class="row">
+          <div class="col-md-10 col-xs-4">
+            <img id="myImage" class="img-responsive" src="xuyun.webp" alt="Avatar of Xuyun Zhang">
+          </div>
+        </div>
+        <div class="info-text">
+          <i>Senior Lecturer</i><br>
+          School of Computing<br>
+          <p class="university-color">Macquarie University</p>
+          Sydney, NSW, Australia<br>
+          <b>Email</b>: <a href="mailto:xuyun.zhang@mq.edu.au">xuyun.zhang@mq.edu.au</a><br>
+        </div>
+        <div class="link-list">
+          <a href="https://researchers.mq.edu.au/en/persons/xuyun-zhang">Macquarie University</a>|
+          <a href="https://www.linkedin.com/in/xuyun-zhang-93608740/"> LinkedIn</a>
+        </div>
+        <br>
+        <div class="link-list">
+          <i class="fa fa-globe" style="font-size:20px;color:#a6192e"></i>
+          <a href="https://www.australia.gov.au/"> Australia</a>|
+          <a href="https://english.www.gov.cn/"> China</a>
+        </div>
+        <br>
+        <div class="link-list">
+          <i class="fa fa-language" style="font-size:20px;color:#a6192e"></i>
+          <a href="https://en.wikipedia.org/wiki/English_language">English</a>|
+          <a href="https://en.wikipedia.org/wiki/Chinese_language"> Chinese</a>
+        </div>
+        <br>
+
+
+
+        <div class="info-text">
+          <!-- <i class="university-color">#Publications:</i>
+          8<br> -->
+          <i class="university-color">#Citations:</i>
+          9666<br>
+        </div>
+
+
+      </div>
+      <div class="col-md-9 col-xs-12">
+        <div class="col" style="margin-top:3%; text-align:left;">
+
+          <p class="justified-text">
+            Dr Xuyun Zhang is currently working as a senior lecturer in School of Computing at Macquarie University in Australia. He worked as a lecturer in The University of Auckland during 2016 ~ 2019 and a postdoc researcher in NICTA (National ICT Australia, now Data61, CSIRO) during 2014 ~ 2016. He got his PhD degree in Computer Science and Technology from University of Technology Sydney (UTS), Australia in 2014, and his Master’s and Bachelor’s degrees in the same major from Nanjing University, China in 2011 and 2008, respectively. 
+
+          <p class="justified-text"><strong style="color:#a6192e" ;>Research Interests</strong>.
+            He is an early/mid-career researcher with an international track record of research in areas including scalable and secure machine learning, big data privacy and cyber security, big data mining and analytics, cloud/edge/service computing and IoT, etc.</strong>.
+              
+            <hr>
+
+        </div>
+
+        <div class="col">
+          <h2 id="publications" style="color:#a6192e" ;>Recent Publications</h2>
+
+          <p class="justified-text">
+          I have authored 251 publications in total (by April 2024), including 1 doctorial thesis, 2 edited conference proceedings, 3 book chapters, 107 refereed journal articles, 117 refereed conference papers, 19 journal special issue editorials and conference welcome messages, and 2 conference abstracts. 
+          <br>Several commonly used metrics are used to indicate the quality of the refereed publications. Two JCR (Journal Citation ReportsTM) metrics including Journal Impact Factor (IF) and its corresponding Quartile (Q) are used to show the influence and impact of journals. All the 107 journal articles are SCI/SCIE indexed, with 91 ranked Q1. The two JCR indicators are shown for all journals.  The CORE (Computing Research and Education Association of Australasia) ranking is used to indicate the quality of conferences in my field (46 Information and Computing Sciences), with CORE A* and A indicating the quality at a flagship and excellent level, respectively. Since there are several versions of ranking, the highest level a publication has been ranked is used herein. Only CORE A* and A rankings are displayed for succinctness. I have 61 conference papers ranked CORE A*/A. The acceptance rate of a CORE A* conference is also provided to further demonstrate the selectivity. Besides, the papers receiving awards are also indicated.
+          <br>In terms of Google Scholar Citations, my publications have attracted 9500+ citations, with an h-index of 51. In the following list of publications, the citation count is shown for a publication having at least 20 citations
+
+
+          <p>See my <a href="https://scholar.google.com.au/citations?user=wbF6HL8AAAAJ&hl=en">Google Scholar</a>,
+            <!-- <a href="https://www.scopus.com/authid/detail.uri?authorId=57215199833">Scopus</a>, -->
+            <a href="https://orcid.org/0000-0001-7353-4159">ORCID</a>,
+            and <a href="https://www.researchgate.net/profile/Xuyun-Zhang">ResearchGate</a> for the complete publication
+            list.
+          </p>
+
+          
+
+          <hr>
+
+          <h4 id="journal-papers">Top five (Most Cited) Journal/Conference Papers</h4>
+          <ul class="vert">
+
+            <li>
+              <strong><a href="https://dl.acm.org/doi/abs/10.1145/3523273">Membership inference attacks on machine learning: A survey</a></strong>. <br>
+              H Hu, Z Salcic, L Sun, G Dobbie, PS Yu, <strong>X Zhang</strong> <br>
+              <i>ACM Computing Surveys</i>, 2022.
+            </li>
+
+            <li>
+              <strong><a href="https://ieeexplore.ieee.org/abstract/document/6470603">A scalable two-phase top-down specialization approach for data anonymization using mapreduce on cloud</a></strong>. <br>
+              <strong>X Zhang</strong>, LT Yang, C Liu, J Chen <br>
+              <i>IEEE Transactions on Parallel and Distributed Systems</i>, 2013.
+            </li>
+
+            <li>
+              <strong><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X18319770">A computation offloading method over big data for IoT-enabled cloud-edge computing</a></strong>. <br>
+              X Xu, Q Liu, Y Luo, K Peng, <strong>X Zhang</strong>, S Meng, L Qi <br>
+              <i>Future Generation Computer Systems</i>, 2019.
+            </li>
+
+            <li>
+              <strong><a href="https://ieeexplore.ieee.org/abstract/document/8823046/">A game-theoretical approach for user allocation in edge computing environment</a></strong>. <br>
+              Q He, G Cui, <strong>X Zhang</strong>, F Chen, S Deng, H Jin, Y Li, Y Yang <br>
+              <i>IEEE Transactions on Parallel and Distributed Systems</i>, 2019.
+            </li>
+
+            <li>
+              <strong><a href="https://ieeexplore.ieee.org/abstract/document/8811603">BeCome: Blockchain-enabled computation offloading for IoT in mobile edge computing</a></strong>. <br>
+              X Xu, <strong>X Zhang</strong>, H Gao, Y Xue, L Qi, W Dou <br>
+              <i>IEEE Transactions on Industrial Informatics</i>, 2019.
+            </li>
+
+          </ul>
+
+        </div>
+        <hr>
+        <div class="col">
+          <h2 id="teaching" style="color:#a6192e;">Research/ Professional Experience</h2>
+        
+          <h4>Director of Industry & External Relations at <a href="https://www.mq.edu.au/">Centre for Applied Artificial Intelligence, Macquarie University</a>: (25/04/2024 – Current)</h4>
+          <ul>
+            <li>Industry and external engagement strategy design, development, and implementation</li>
+            <li>Partnership and collaboration opportunity identification</li>
+            <li>Networking and communication</li>
+          </ul>
+        
+          <h4>Cyber Security Course Director at <a href="https://www.mq.edu.au/">Macquarie University</a>: (01/01/2023 – Current)</h4>
+          <ul>
+            <li>Course distinctiveness, relevance, strategy, and recruitment </li>
+            <li>Course-level design and management</li>
+            <li>Quality assurance and improvement</li>
+            <li>Ensure high-quality student experience</li>
+          </ul>
+        
+          <h4>Cyber Security Program Leader at <a href="https://www.mq.edu.au/">Macquarie University</a>: (01/03/2020 – 31/12/2022)</h4>
+          <ul>
+            <li>Course distinctiveness, relevance, strategy, and recruitment </li>
+            <li>Course-level design and management</li>
+            <li>Quality assurance and improvement</li>
+            <li>Ensure high-quality student experience</li>
+          </ul>
+        
+          <h4>Senior Lecturer at <a href="https://www.mq.edu.au/">Macquarie University</a>: (04/11/2019 – Current)</h4>
+          <ul>
+            <li>Curriculum design, development, and teaching </li>
+            <li>Research with publications, projects, and funding</li>
+            <li>HDR student supervision</li>
+            <li>University/Faculty/School/Community Services</li>
+          </ul>
+        
+          <h4>Lecturer at <a href="https://www.auckland.ac.nz/">University of Auckland</a>: (02/05/2016 – 01/11/2019)</h4>
+          <ul>
+            <li>Curriculum design, development, and teaching </li>
+            <li>Research with publications, projects, and funding</li>
+            <li>HDR student supervision</li>
+            <li>University/Faculty/School/Community Services</li>
+          </ul>
+        
+          <h4>Researcher at <a href="https://www.csiro.au/">NICTA (now Data61, CSIRO)</a>: (18/09/2014 – 19/02/2016)</h4>
+          <ul>
+            <li>Achieving a high standard of research with top-tier publications </li>
+            <li>Contribute to industry or internal projects</li>
+            <li>Research student supervision</li>
+          </ul>
+        
+          <h4>Associate Researcher at <a href="https://www.csiro.au/">NICTA (now Data61, CSIRO)</a>: (11/08/2014 – 17/09/2014)</h4>
+          <ul>
+            <li>Achieving a high standard of research with top-tier publications </li>
+            <li>Contribute to industry or internal projects</li>
+            <li>Research student supervision</li>
+          </ul>
+        </div>
+        
+
+        <hr>
+
+        <div class="col">
+          <h2 id="education" style="color:#a6192e;">Education</h2>
+          <ul>
+            <li>Doctor of Philosophy in Information Systems from <a href="https://www.uts.edu.au/">University of Technology Sydney</a> (15/08/2011 – 20/11/2014)</li>
+            <li>Masters of Engineering in Computer Science and Technology from <a href="https://www.nju.edu.cn/">Nanjing University</a> (01/09/2008 – 13/06/2011)</li>
+            <li>Bachelor of Science in Computer Science and Technology from <a href="https://www.nju.edu.cn/">Nanjing University</a> (01/09/2004 – 20/06/2008)</li>
+          </ul>
+        </div>
+        
+
+        <hr>
+
+        <div class="col">
+          <h2 id="grants" style="color:#a6192e;">Grants & Consultancies</h2>
+          <p class="justified-text">
+          I have secured 17 research grants with a total funding of around $7M, including 13 external ones and 4 internal ones. I led 6 out of the 17 projects as the lead/sole Chief Investigator, with an ARC DECRA project and an RSNZ Marsden Fund (Fast-Start). Following is the detailed list of the grants.
+          <ul class="justified-text">
+            <li>Amin Beheshti, Jia Wu, Xuyun Zhang, Yuankai Qi, Emma Xue, and Hamid Alinejad, “Next-Gen Banking: Towards Customized and Personalized Banking Solutions through Generative AI Technologies”, Chief Investigator, $1.76M, Prospa Advance Pty Ltd, May 2024 – December 2027.</li>
+            <li>Amin Beheshti, Saleh Afzoon, Xuyun Zhang, Emma Xue, Jia Wu, Guanfeng Liu, and John McMahon, “Linking Cognitive Science and Data Science for Enhanced Therapeutic Interventions”, Chief Investigator, $45K, The Navigator Group Pty Ltd, Dec 2023 – Dec 2024.</li>
+            <li>Yin Liao, Di Bu, Matt Nolan, Michael Haliassos, Michael Pagel, Xuyun Zhang, and Hongjiao Liu, “MQBSe61RPS: Real-time Monitoring of Social Inequality and its Applications to Policy Evaluation”, Chief Investigator, $98K, Macquarie University, Sep 2023 – Sep 2025.</li>
+            <li>Amin Beheshti, Fariba Lotfi, Mike Simpson, Xuyun Zhang, and Jia Wu, “AI-Powered Enhancement of Security Against Identity Document Fraud”, Chief Investigator, $10.8K, Locii Innovation Pty Ltd, May 2023 – Sep 2023.</li>
+            <li>Mark Dras, Jian Yang, Xuyun Zhang, Deborah Richards, Reza Mohajerpoor, Clara Chun, and Shiva Sharif, “Detecting Medically Related Fraud, Abuse, Waste and Errors in Motor Vehicle Insurance Claims”, Chief Investigator, $520K, Digital Health CRC Limited, Apr 2023 – Mar 2025.</li>
+            <li>Di Bu, Yin Liao, Tom Smith, Martina Linnenlueke, Cynthia Cai, Vito Mollica, Abhay Singh, Clement Peng, Amin Beheshti, Xuyun Zhang, and Jianlie Han, “Educating Retail Investors for Impact Investing”, Chief Investigator, $536K, Futu Securities (Australia) Ltd, Sep 2022 – Oct 2023.</li>
+            <li>Amin Beheshti, Xuyun Zhang, Bernard Mans, Jia Wu, Guanfeng Liu, Michael Sheng, Jian Yang, Mohsen Asadnia, Daniel Ghezelbash, and Mike Simpson, “Scalable and Extensible Document Intelligence Platform”, Chief Investigator, $1.05M, Locii Innovations Pty Ltd, Oct 2022 – Jan 2027.</li>
+            <li>Amin Beheshti, Michael Sheng, Jia Wu, Jian Yang, Xuyun Zhang, Hamid Alinejad Rokny, and Pooyan Asghari, “Intelligent Storytelling with Business Data”, Chief Investigator, $1.05M, Domain Holdings Australia Limited, Nov 2022 – Jan 2027.</li>
+            <li>Amin Beheshti, Jia Wu, Hamid Alinejad Rokny, Xuyun Zhang, Alireza Jolfaei, Steven Wood, Clara Zhou, Di Bu, Yin Liao, “Intelligent Risk Assessment for Financial Services”, Chief Investigator, $960K, Prospa Advance Pty Ltd, Jun 2021 – Jul 2025.</li>
+            <li>Xuyun Zhang, “Scalable and Deep Anomaly Detection from Big Data with Similarity Hashing”, Sole Chief Investigator, $387.1K, Discovery Early Career Researcher Award (DECRA), Australian Research Council, Jan 2021 – Dec 2023. (This prestigious fund is very competitive with a low selection rate of 17.1% for the 2021 round.)</li>
+            <li>Mark Dras, Deborah Richards, Jian Yang, Xuyun Zhang, Bavani Arunasalam, and Omid Mohamad Nezami, “Data Science Process for Rule Generation: Using Data Science to Detect Claims Leakage Project Description”, Chief Investigator, $68K, Digital Health CRC Limited, Aug 2020 – Dec 2021.</li>
+            <li>Xuyun Zhang, “Similarity Hashing Based Privacy Preservation for Big Data Mining”, Sole Chief Investigator, $24K, Early Career Research Excellence Award (ECREA), The University of Auckland, Jan 2019 – Dec 2019. (Only 6 recipients across the whole university in 2019.)</li>
+            <li>Xuyun Zhang and Zoran Salcic, “Versatile and Efficient Anomaly Detection for Fog Computing Applications”, $285K, Marsden Fund (Fast-Start), Royal Society of New Zealand, Lead Chief Investigator, Jan 2018 – Dec 2020. (This prestigious fund is very competitive with a low selection rate of 14.7% for the 2018 round. It is roughly equivalent to ARC DECRA in Australia.)</li>
+            <li>Xuyun Zhang and Wanchun Dou, “Research on Fast Anomaly Detection with Hashing in IoT-cloud”, $8.6K, Open Funding for Overseas Researchers, Nanjing University, Lead Chief Investigator, Jan 2018 – Dec 2019.</li>
+            <li>Xuyun Zhang and Zoran Salcic, “Scalable Anomaly Detection on Multi-source IoT (Internet of Things) Data with Cloud Computing Services”, Lead Chief Investigator, $28.5K, Faculty Research Development Fund (New-Staff track), The University of Auckland, Nov 2017 – Nov 2019.</li>
+            <li>Giovanni Russello, Rizwan Asghar, Steven Galbraith, Gill Dobbie, Alexandra Sims, Paul Corballis, Lech Janczewski, Judge David John Harvey, Xuyun Zhang, and Arron Judson, “Seed Funding for a Cyber Security Foundry”, Chief Investigator, $143K, Vice-Chancellor's Strategic Development Fund, The University of Auckland, Jul 2017 – Jun 2019.</li>
+            <li>Xuyun Zhang and Wanchun Dou, “Multi-source Big Traffic Data Analysis for Smart Cities”, Lead Chief Investigator, $10K, Open Funding for Overseas Researchers, Nanjing University, Jan 2015 – Dec 2016.</li>
+          </ul>
+        </div>
+        
+        <hr>
+
+        <div class="col">
+          <h2 id="awards" style="color:#a6192e;">Awards, Prizes & Fellowships</h2>
+          <p class="justified-text">
+          I have received 13 prestigious awards, prizes, or fellowships in total, listed below with their basic information and the quality justification for some items.
+          <ul class="justified-text">
+            <li>2021, ARC DECRA Fellowship (2021 – 2023), Australian Research Council. This prestigious award is very competitive with a low selection rate of 17.1% for the 2021 round.</li>
+            <li>2021, Highly Cited Researcher in the Computer Science Discipline, Clarivate. Only about 0.1% of the world’s researchers earned this exclusive distinction in 2021.</li>
+            <li>2019, Early-Career Research Excellence Award (ECREA), University of Auckland. There are only six recipients across the whole university receiving this prestigious award in the 2019 round.</li>
+            <li>2015, Chancellor's Award for Best PhD Thesis (with $1,000 prize money), University of Technology Sydney. This is the most prestigious award for PhD graduates within the University.</li>
+            <li>2012, Chinese Government Award for Outstanding Self-Financed Student Abroad (with USD$6,000 prize money), China Scholarship Council (CSC). This prestigious award targets overseas Chinese PhD students who got scholarships from overseas universities rather than from CSC. This award is competitive with a very low selection rate. I was the only awardee in the Faculty of Engineering and IT at UTS in the 2012 round, and there were only 18 recipients across New South Wales.</li>
+          </ul>
+        
+          <h3>Publication Awards</h3>
+          <ul class="justified-text">
+            <li>2022, ICDM Best Student Paper Runner-Up Award (with $500 prize money), The 22nd IEEE International Conference on Data Mining (ICDM22). ICDM is a top-tier conference (CORE A*) in the fields of data mining and knowledge discovery.</li>
+            <li>2022, IEEE Outstanding Paper Award, The 19th IEEE International Conference on Ubiquitous Intelligence & Computing (UIC22).</li>
+            <li>2022, Best Paper Award, The 15th IEEE International Conference on Internet of Things (iThings22).</li>
+            <li>2021, IEEE Outstanding Paper Award, The 24th International Conference on High Performance Computing & Communications (HPCC21).</li>
+            <li>2021, Outstanding Paper Award, The 11th International Conference on Computer Engineering and Networks (CENET21).</li>
+            <li>2021, Best Research Paper Award, Computer Communications, Elsevier.</li>
+            <li>2017, Best Paper Award, The 9th International Symposium on Cyberspace Safety and Security (CSS17).</li>
+            <li>2017, Best Paper Award, The 10th International Conference on Security, Privacy & Anonymity in Computation, Communication & Storage (SpaCCS17).</li>
+          </ul>
+        </div>
+        
+        <hr>
+
+        <!-- <div class="col">
+          <h2 id="skills" style="color:#a6192e" ;>Computing Skills</h2>
+          <ul>
+            <li><strong>Languages:</strong> C, C++, C#, Java, Python, Processing, LaTeX, SQL</li>
+            <li><strong>Tool/Platforms:</strong> Android Studio, Unity 3D, Wit.AI, MOEA Framework, Jmetal, CodeRunner
+            </li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, jQuery, ajax, .net Framework</li>
+            <li><strong>Operating Systems:</strong> Linux, Windows, Android, MAC</li>
+            <li><strong>Design</strong>: Adobe Photoshop </li>
+            <li><strong>Misc.:</strong> MS Office, MS Project, MS Visio, Rational Rose, End Note</li>
+          </ul>
+        </div>
+
+        <hr>
+        <div class="col">
+          <h2 id="services" style="color:#a6192e" ;>Services & Memberships</h2>
+          <h4 id="conference-organizing-committee">Conference Organizing Committee</h4>
+          <ul>
+            <li><a href="https://adma2024.github.io/">ADMA 2024</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://sites.google.com/view/wfar/wfar-17">WFAR 2019</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://sites.uol.edu.pk/icacs19/">ICACS 2019</a></li>
+          </ul>
+          <h4 id="conference-reviewer">Conference/ Journal Reviewer</h4>
+          <ul>
+            <li><a href="https://pstda2023.github.io/">DSAA 2023</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://link.springer.com/journal/291">OR Spectrum</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://link.springer.com/journal/10586">Cluster Computing</a></li>
+          </ul>
+
+          <h4 id="member">Member</h4>
+          <ul>
+            <li><a href="https://data-science-group.github.io/">Data Science Research Lab at Macquarie University,
+                Australia</a>
+              (July 2021 – Current)</li>
+          </ul>
+          <ul>
+            <li>S2MILE Research Lab at Macquarie University, Australia</a> (July 2021 – Current)</li>
+          </ul>
+          <ul>
+            <li>Accreditation Committee at University of Lahore, Pakistan</a> (Sep 2018 – March 2022)</li>
+          </ul>
+          <ul>
+            <li>Secretary of Final Year Projects Committee at University of Lahore, Pakistan</a> (Sep 2018 – March 2022)
+            </li>
+          </ul>
+          <ul>
+            <li>Talent Hunt Committee at University of Lahore, Pakistan</a> (Sep 2018 – March 2022)</li>
+          </ul>
+          <ul>
+            <li>Events and Conference Organizing Committee at University of Lahore, Pakistan</a> (Sep 2018 – March 2022)
+            </li>
+          </ul>
+        </div>
+        <hr>
+
+        <div class="col">
+          <h2 id="project" style="color:#a6192e" ;>Projects Supervision</h2>
+          <h4 id="project-supervision">Bachelors</h4>
+          <ul>
+            <li><strong>University Chatbot (Bleep Bloop):</strong> Maheen Sajid, Hamza Khalid, Mohsin Ijaz – 2022</li>
+            <li><strong>Predictive and Priority based Electoral System:</strong> Muhammad Rizwan Tayyab, Zahid Noor,
+              Abdullah Iqbal – 2022</li>
+            <li><strong>NutriHealth:</strong> Syed Ali Murtaza Bukhari, Shahmeer Arif – 2022</li>
+            <li><strong>Lambo Taxi:</strong> Talal Ahmad, Sufian Zulfiqar – 2022</li>
+            <li><strong>WhatsApp Search:</strong> Aiza Bint-e-farooq, Tooba Saeed, Rafia Zafar – 2022</li>
+            <li><strong>Transformers:</strong> Haider Wasim, Muqadam Chaudhry, Abdul Ahad – 2022</li>
+            <li><strong>Licentious Racers:</strong> Qasim Shakeel – 2022</li>
+            <li><strong>Chatbot for Restaurant:</strong> Ahsan Farooq, Hussnain Afzal – 2021</li>
+            <li><strong>John Wick:</strong> Alina Khan, Muhammad Abdullah, Ali Pervaiz – 2021</li>
+            <li><strong>Archiworld:</strong> Ghasiqa Batool, Saad Naveed – 2021</li>
+            <li><strong>Animal Health Care:</strong> Mehreen Ishtiaq, Fatima Ejaz, Ahmed Mujtaba – 2020</li>
+          </ul>
+        </div>
+        <hr> -->
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <ul class="social-icons">
+        <li><a href="https://scholar.google.com.au/citations?user=wbF6HL8AAAAJ&hl=en"><i class="fa fa-google"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/xuyun-zhang-93608740/"><i class="fa fa-linkedin-square"></i></a></li> <br><br>
+      </ul>
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
